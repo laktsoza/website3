@@ -1,0 +1,299 @@
+
+body {
+    padding: 25px;
+}
+main {
+    margin: 0 auto;
+    width: 1850px;
+    font-family: sans-serif;
+    background-image: url(cbwa09.jpg);
+}
+
+.black-line {
+    position: relative;
+    background-color: black;
+}
+
+.black-line p {
+    display: inline-block;
+    font-size: 11px;
+    color: white;
+    padding: 2px 12px;
+}
+
+.manu {
+    float: right;
+    opacity: 0.7;
+}
+.manu:hover {
+    cursor: pointer;
+}
+
+.manu-icon {
+    position: absolute;
+    top: 13.5px;
+    right: 43px;
+    opacity: 0.7;
+}
+.manu-icon div {
+    width: 10px;
+    height: 1.1px;
+    background-color: white;
+    margin: 2px 0px;
+}
+
+.background {
+    position: relative;
+    text-align: center;
+    height: 400px;
+    background-image: url(wall.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.background div {
+    padding-top: 180px;
+    color: white;
+}
+.background div :first-child {
+    letter-spacing: 2.5px;
+    margin: 0;
+    font-size: 42px;
+    font-weight: lighter;
+}
+.background div :last-child {
+    padding: 0 635px;
+    font-size: 17px;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+img:hover {
+    cursor: pointer;
+}
+.next {
+    text-align: center;
+    margin-top: 80px;
+}
+.next :first-child {
+    font-size: 27px;
+}
+.next :last-child {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.icons {
+    text-align: center;
+    padding: 0 300px;
+}
+.icons div {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    height: 300px;
+    width: 270px;
+    background-color: white;
+}
+#image1 {
+    position: relative;
+    top: 72px;
+    width: 65px;
+}
+.icons img {
+    position: relative;
+    top: 65px;
+    width: 62px;
+}
+
+.p1, .p2 {
+    margin-top: 100px;
+}
+
+.icons p {
+    opacity: 0.7;
+}
+.topp {
+    font-size: 15px;
+    margin-top: 90px;
+}
+
+.bottom {
+    line-height: 1.5;
+    padding: 8px 40px;
+    font-size: 12px;
+}
+
+.down {
+    margin-top: 60px;
+    height: 300px;
+}
+.down div {
+    padding-top: 100px;
+}
+.down div :first-child {
+    font-size: 33px;
+    padding: 0 0;
+    margin: 0;
+}
+.down div :last-child {
+    padding: 15px 500px;
+    font-size: 12px;
+}
+
+.down {
+    background-image: url(building-glass.png);
+}
+
+.second div {
+    position: relative;
+    height: 250px;
+}
+
+.second div .line {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 8px;
+    height: 130px;
+    background-color: lightgray;
+}
+
+.comment {
+    font-size: 14px;
+    text-align: left;
+    padding: 40px 50px 0 70px;
+    font-style: italic;
+}
+
+.last {
+    margin-top: 100px;
+    padding: 60px 0 0 0;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+}
+
+.last div {
+    text-align: left;
+    margin: 9px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.last div p {
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+#bottom1 {
+    width: 390px;
+}
+
+#bottom2 {
+    width: 280px;
+    overflow: hidden;
+}
+#bottom2 p {
+    padding: 0;
+    margin: 3px 0 0 0;
+    font-size: 12px;
+    line-height: 1.4;
+}
+#bottom2 div {
+    opacity: 0.6;
+    margin: 0;
+    margin-top: 11px;
+    background-color: white;
+    width: 270px;
+    height: 1px;
+}
+#bottom3 {
+    width: 190px;
+}
+#bottom3 div {
+    height: auto;
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+}
+#bottom3 img {
+    width: 20px;
+    border-radius: 20%;
+}
+
+#bottom3 p {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+h5, h4 {
+    font-weight: normal;
+}
+
+#vakho {
+    position: relative;
+    top: 25px;
+    left: -11px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#guja {
+    position: relative;
+    top: 25px;
+    left: -11px;
+    width: 42px;
+    border-radius: 50%;
+}
+#mark {
+    position: relative;
+    top: 25px;
+    left: -11px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.jane {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    font-size: 11px;
+}
+
+.jane b {
+    color: red;
+}
+
+#last-line {
+    display: block;
+    opacity: 0.6;
+    margin: 20px auto;
+    background-color: white;
+    width: 900px;
+    height: 1px;
+}
+
+.menubar {
+    position: absolute;
+    top: 500px;
+    width: 500px;
+    height: 600px;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
