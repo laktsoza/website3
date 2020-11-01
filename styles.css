@@ -6,7 +6,7 @@ main {
     margin: 0 auto;
     width: 1850px;
     font-family: sans-serif;
-    background-image: url(cbwa09.jpg);
+    background-image: url(./images/cbwa09.jpg);
 }
 
 .black-line {
@@ -46,9 +46,10 @@ main {
     position: relative;
     text-align: center;
     height: 400px;
-    background-image: url(wall.jpg);
+    background-image: url(./images/wall.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: 100;
 }
 
 .background div {
@@ -125,8 +126,10 @@ img:hover {
 }
 
 .down {
+    background-image: url(./images/building-glass.png);
     margin-top: 60px;
     height: 300px;
+    background-size: 100%;
 }
 .down div {
     padding-top: 100px;
@@ -141,9 +144,6 @@ img:hover {
     font-size: 12px;
 }
 
-.down {
-    background-image: url(building-glass.png);
-}
 
 .second div {
     position: relative;
@@ -276,17 +276,6 @@ h5, h4 {
     width: 900px;
     height: 1px;
 }
-
-.menubar {
-    position: absolute;
-    top: 500px;
-    width: 500px;
-    height: 600px;
-    background-color: lightblue;
-}
-
-
-
 
 
 
